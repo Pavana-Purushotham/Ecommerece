@@ -10,7 +10,7 @@ namespace SpecFlowProject2.Drivers
 {
     public class BaseDriver
     {
-        public static IWebDriver driver;
+        public IWebDriver driver;
 
         public void Setup()
         {
